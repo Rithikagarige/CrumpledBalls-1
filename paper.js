@@ -3,7 +3,7 @@ class Paper{
         var options = {
             isStatic: true
         }
-        this.body = Bodies.circle(x,y,radius);
+        this.body = Bodies.circle(x,y,radius,options);
         this.radius=radius;
         World.add(world, this.body);
       }
